@@ -22,3 +22,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+test/src/main/java/edu/merzlab/model/DragonLombok.java
+.gitignore
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/java_wwibe124_maven.iml
+.idea/misc.xml
+.gitignore
+.DS_Store
+.idea/vcs.xml
+.idea/modules.xml
+.DS_Store
