@@ -1,1 +1,2 @@
 # java_wwibe124_maven
+Projekt Mitschriebversuch zur Vorlesung
