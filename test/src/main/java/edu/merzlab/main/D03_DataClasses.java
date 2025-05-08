@@ -1,7 +1,6 @@
 package edu.merzlab.main;
 
 import edu.merzlab.model.DragonClass;
-import edu.merzlab.model.DragonType;
 
 public class D03_DataClasses {
     public static void main(String[] args) {
