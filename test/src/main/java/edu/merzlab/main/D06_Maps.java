@@ -83,7 +83,7 @@ public class D06_Maps {
         System.out.println("Ergebnisse der Matheklausur:");
         studentsWithExam
             .forEach((s, e) 
-                            -> System.out.println( s.getId() + ": " + e.getGrade()));
+                            -> System.out.println( s.id + ": " + e.getGrade()));
     }
 
 }
