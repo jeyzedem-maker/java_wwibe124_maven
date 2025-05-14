@@ -68,6 +68,16 @@ public class D06_Maps {
             Exam exam = entry.getValue();
             System.out.println(student.getName() + ": " + exam.getGrade());
         }
+
+        /* Datensummlung: Menge aller Schlüssel-Wert-Paare/einträge */
+        System.out.println("Eegebnissse der Matheklausur:");
+        for (Entry<Student, Exam> entry : studentsWithExam.entrySet()) {
+            Student student = entry.getKey();
+            Exam oldExam = entry.getValue();
+            Exam newExam = new Exam(oldExam.getLecture(), oldExam.getGrade() - 1);
+            entry.setValue(newExam);
+            System.out.println(student.getName() + ": " + newExam.getGrade() + " -> " + oldExam.getGrade());
+        }
     }
 
 }
