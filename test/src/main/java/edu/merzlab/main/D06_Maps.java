@@ -76,8 +76,12 @@ public class D06_Maps {
             Exam oldExam = entry.getValue();
             Exam newExam = new Exam(oldExam.getLecture(), oldExam.getGrade() - 1);
             entry.setValue(newExam);
-            System.out.println(student.getName() + ": " + newExam.getGrade() + " -> " + oldExam.getGrade());
+            System.out.println(student.getName() + ": " + newExam.getGrade() + " <- " + oldExam.getGrade());
         }
+
+        // ForEach-Methode
+        System.out.println("Ergebnisse der Matheklausur:");
+        studentsWithExam.forEach((s, e) -> System.out.println( s.getId() + ": " + e.getGrade()));
     }
 
 }
