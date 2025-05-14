@@ -1,5 +1,6 @@
 package edu.merzlab.model;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
@@ -7,7 +8,9 @@ import lombok.ToString;
 @RequiredArgsConstructor
 @Getter
 @ToString
+@EqualsAndHashCode
 public class Student {
-    private final int id;
+    
+    private final String id;
     private final String name;
 }
