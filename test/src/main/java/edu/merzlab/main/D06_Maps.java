@@ -81,7 +81,9 @@ public class D06_Maps {
 
         // ForEach-Methode
         System.out.println("Ergebnisse der Matheklausur:");
-        studentsWithExam.forEach((s, e) -> System.out.println( s.getId() + ": " + e.getGrade()));
+        studentsWithExam
+            .forEach((s, e) 
+                            -> System.out.println( s.getId() + ": " + e.getGrade()));
     }
 
 }
